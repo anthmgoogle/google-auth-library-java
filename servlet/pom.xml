@@ -9,8 +9,8 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>google-auth-library-appengine</artifactId>
-  <name>Google Auth Library for Java - Google App Engine</name>
+  <artifactId>google-auth-library-servlet</artifactId>
+  <name>Google Auth Library for Java - Servlet</name>
 
   <distributionManagement>
     <snapshotRepository>
@@ -48,10 +48,6 @@
       <artifactId>google-auth-library-oauth2-http</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.google.auth</groupId>
-      <artifactId>google-auth-library-servlet</artifactId>
-    </dependency>
-    <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client</artifactId>
     </dependency>
@@ -60,9 +56,9 @@
       <artifactId>google-http-client-jackson2</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.google.appengine</groupId>
-      <artifactId>appengine-api-1.0-sdk</artifactId>
-    </dependency>    
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+    </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava-jdk5</artifactId>
